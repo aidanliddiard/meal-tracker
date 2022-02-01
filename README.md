@@ -15,6 +15,26 @@
 - `<ul>` for all meals
 
 ## Events
+- add ingredient button
+    - prevent default
+    - access the form data with a const 
+    - create object for ingredient
+    - push ingredient object to ingredients array
+    - update view by rerendering the ingredients array
+    - reset the form
+
+- remove button
+    - pop the ingredients array
+    - update view by rerendering the ingredients array
+
+- save meal button
+    - grab meal name from input
+    - use for loop to count ingredients and save count
+    - create object with name and count
+    - update the view by rendering the meals array
+    - reset the input
+    - reset the ingredients array
+    - update view by rerendering the ingredients array
 
 ## Plan
 
