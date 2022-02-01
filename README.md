@@ -1,3 +1,23 @@
+## Name HTML elements
+
+- `<form>` for adding ingredients
+    - `<input>` for ingredients
+    - `<option>` for have/don't have dropdown
+    - `<option>` for store dropdown
+    - `<button>` for add ingredient button
+
+- `<ul>` for ingredients
+- `<button>` for remove previous ingredient button
+
+- `<input>` for name of meal
+- `<button>` for add meal button
+
+- `<ul>` for all meals
+
+## Events
+
+## Plan
+
 ## The Golden Rule: 
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
