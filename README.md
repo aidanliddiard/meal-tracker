@@ -37,6 +37,32 @@
     - update view by rerendering the ingredients array
 
 ## Plan
+- build my html
+    - ACP
+- create addEventListener in js for add ingredient button
+    - ACP
+- build render function 
+- test render function
+    - ACP
+- create ingredients array from ingredient objects
+- use render function 
+- reset the form
+    -ACP
+- create addEventListener in js for remove button using pop and render function
+    -ACP
+- build render function for meals
+- test render function
+    -ACP
+- create addEventListener in js for save meal button
+    -ACP
+- create meals array from meal objects
+    -ACP
+- render the meals 
+- reset the ingredients list
+- render the ingredients
+    -ACP
+
+
 
 ## The Golden Rule: 
 
