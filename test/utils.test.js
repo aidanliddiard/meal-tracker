@@ -1,20 +1,20 @@
 // IMPORT MODULES under test here:
-// import { example } from '../example.js';
+import { renderIngredients } from '../utils.js';
 
 const test = QUnit.test;
 
 test('time to test a function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = '<div class="ingredient-list"><h3>Celery</h3><ul><li>Need</li><li>Whole Foods Market</li></ul></div>';
+    const expected = '<ul><h3>Celery</h3><li>Need</li><li>Whole Foods Market</li></ul>';
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const renderIngredients = {
+    const actual = renderIngredients ({
         ingredient: 'Celery',
         need: 'Need',
         store: 'Whole Foods Market',
-    };
+    });
 
     //Expect
     // Make assertions about what is expected versus the actual result
