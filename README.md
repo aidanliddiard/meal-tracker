@@ -57,7 +57,7 @@
     -ACP
 - create meals array from meal objects
     -ACP
-- render the meals 
+-  render the meals 
 - reset the ingredients list
 - render the ingredients
     -ACP
