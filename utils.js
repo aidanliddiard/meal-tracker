@@ -1,6 +1,6 @@
-export function renderIngredients(object) {
+export function renderIngredient(object) {
     const h3 = document.createElement('h3');
-    h3.textContent = object.ingredient;
+    h3.textContent = object.name;
     const ul = document.createElement('ul');
     const liNeed = document.createElement('li');
     liNeed.textContent = object.need;
@@ -10,5 +10,4 @@ export function renderIngredients(object) {
     ul.append(h3, liNeed, liStore);
 
     return (ul);
-
 }

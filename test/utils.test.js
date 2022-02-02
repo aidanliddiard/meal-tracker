@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { renderIngredients } from '../utils.js';
+import { renderIngredient } from '../utils.js';
 
 const test = QUnit.test;
 
@@ -10,8 +10,8 @@ test('time to test a function', (expect) => {
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = renderIngredients ({
-        ingredient: 'Celery',
+    const actual = renderIngredient ({
+        name: 'Celery',
         need: 'Need',
         store: 'Whole Foods Market',
     });
