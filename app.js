@@ -5,6 +5,8 @@ const ingredientBtn = document.getElementById('add-ingredient');
 const form = document.getElementById('add-ingredient');
 const ingredientList = document.getElementById('ingredient-list');
 
+const removeBtn = document.getElementById('remove');
+
 let ingredients = [];
 
 function renderIngredients() {
@@ -12,7 +14,6 @@ function renderIngredients() {
     for (let ingredient of ingredients){
         const ul = renderIngredient(ingredient);
         ingredientList.append(ul);
-        console.log(ul);
     }
 }
 
@@ -30,4 +31,9 @@ ingredientBtn.addEventListener('submit', (e) => {
 
     renderIngredients();
     form.reset();
+});
+
+removeBtn.addEventListener('click', () => {
+    ingredients.pop();
+    renderIngredients();
 });
