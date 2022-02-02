@@ -1,8 +1,19 @@
-// import functions and grab DOM elements
+const ingredientBtn = document.getElementById('add-ingredient');
 
-// let state
+let ingredients = [];
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+ingredientBtn.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    const ingredientObj = {
+        ingredient: data.get('ingredient'),
+        need: data.get('need'),
+        store: data.get('store'),
+    };
+    ingredients.push(ingredientObj);
+
+    renderIngredients();
+    form.reset();
+});
