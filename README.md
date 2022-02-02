@@ -1,3 +1,69 @@
+## Name HTML elements
+
+- `<form>` for adding ingredients
+    - `<input>` for ingredients
+    - `<option>` for have/don't have dropdown
+    - `<option>` for store dropdown
+    - `<button>` for add ingredient button
+
+- `<ul>` for ingredients
+- `<button>` for remove previous ingredient button
+
+- `<input>` for name of meal
+- `<button>` for add meal button
+
+- `<ul>` for all meals
+
+## Events
+- add ingredient button
+    - prevent default
+    - access the form data with a const 
+    - create object for ingredient
+    - push ingredient object to ingredients array
+    - update view by rerendering the ingredients array
+    - reset the form
+
+- remove button
+    - pop the ingredients array
+    - update view by rerendering the ingredients array
+
+- save meal button
+    - grab meal name from input
+    - use for loop to count ingredients and save count
+    - create object with name and count
+    - update the view by rendering the meals array
+    - reset the input
+    - reset the ingredients array
+    - update view by rerendering the ingredients array
+
+## Plan
+- build my html
+    - ACP
+- create addEventListener in js for add ingredient button
+    - ACP
+- build render function 
+- test render function
+    - ACP
+- create ingredients array from ingredient objects
+- use render function 
+- reset the form
+    -ACP
+- create addEventListener in js for remove button using pop and render function
+    -ACP
+- build render function for meals
+- test render function
+    -ACP
+- create addEventListener in js for save meal button
+    -ACP
+- create meals array from meal objects
+    -ACP
+-  render the meals 
+- reset the ingredients list
+- render the ingredients
+    -ACP
+
+
+
 ## The Golden Rule: 
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
