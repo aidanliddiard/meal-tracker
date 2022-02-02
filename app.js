@@ -1,4 +1,4 @@
-import { renderIngredient } from './utils.js';
+import { renderIngredient, renderMeal } from './utils.js';
 
 
 const ingredientBtn = document.getElementById('add-ingredient');

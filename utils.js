@@ -11,3 +11,18 @@ export function renderIngredient(object) {
 
     return (ul);
 }
+export function renderMeal(object) {
+    const ul = document.createElement('ul');
+    const h2 = document.createElement('h2');
+    h2.textContent = `${object.name} (${object.total})`;
+
+    ul.append(h2);
+    
+    for (let i of object.list) {
+        const li = document.createElement('li');
+        li.textContent = i;
+        ul.append(li);
+    }
+    
+    return ul;
+}
